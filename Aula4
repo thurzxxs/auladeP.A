@@ -1,0 +1,289 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOPSFYlsnv2IFBGc0K80SQp",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/thurzxxs/auladeP.A/blob/main/Aula4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Aula de programação e algorítmos\n",
+        "\n",
+        "* Calcular uma área\n",
+        "\n",
+        "# Entrada\n",
+        "\n",
+        "Ler lado1\n",
+        "Ler lado2\n",
+        "\n",
+        "# Processamento\n",
+        "\n",
+        "área = lado1 * lado2\n",
+        "\n",
+        "# Saída\n",
+        "\n",
+        "escrever o total da área\n"
+      ],
+      "metadata": {
+        "id": "suy3q2KxsOpn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#variáveis que recebe o valor dos lados\n",
+        "\n",
+        "# Entrada\n",
+        "lado_1 = 7\n",
+        "lado_2 = 3"
+      ],
+      "metadata": {
+        "id": "C2PWiP0nukLb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "\n",
+        "area = lado_1 * lado_2"
+      ],
+      "metadata": {
+        "id": "36aEruMDvNlq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saida\n",
+        "\n",
+        "print (f\"total da área calculada: {area} metros quadrados\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tYGGJz4CvbZc",
+        "outputId": "2adaf58f-33e7-4148-e595-564a04d482a6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "total da área calculada: 21 metros quadrados\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "operadores aritméticos\n",
+        "\n",
+        "1. soma = +\n",
+        "2. subtração = -\n",
+        "3. multiplicção = *\n",
+        "4. divisão = /"
+      ],
+      "metadata": {
+        "id": "wjC85j0FzoNk"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade:\n",
+        "\n",
+        "fazer um algoritmo e depois que recebe o programa 4 notas do aluno e cálcula a média aritimética e imprimi a média"
+      ],
+      "metadata": {
+        "id": "nrYVU-240Z1R"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Algoritimo\n",
+        "\n",
+        "# entrada\n",
+        "\n",
+        "ler nota1\n",
+        "ler nota2\n",
+        "ler nota3\n",
+        "ler nota4\n",
+        "\n",
+        "# processamento\n",
+        "\n",
+        "calcular a media das notas\n",
+        "\n",
+        "# saida\n",
+        "\n",
+        "mostrar resultado"
+      ],
+      "metadata": {
+        "id": "rC0zCUbT45ev"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Entrada\n",
+        "\n",
+        "nota1 = 7\n",
+        "nota2 = 5\n",
+        "nota3 = 9\n",
+        "nota4 = 6"
+      ],
+      "metadata": {
+        "id": "BdM36nWe1D9R"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Processamento\n",
+        "\n",
+        "media = (nota1 + nota2 + nota3 + nota4) / 4"
+      ],
+      "metadata": {
+        "id": "qbU9L9Y02FkI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Saída\n",
+        "\n",
+        "print (f\"A média do aluno: {media}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GNlqy0uP2qgS",
+        "outputId": "9f8d111b-0afc-42b5-c14b-56e550342e19"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A média do aluno: 6.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "faça um algoritimo que recaba um numero e calcule o dobor dele"
+      ],
+      "metadata": {
+        "id": "6GFOME178qt1"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# entada\n",
+        "\n",
+        "leia o numero1\n",
+        "\n",
+        "# processamento\n",
+        "\n",
+        "dobre os numeros\n",
+        "\n",
+        "# saida\n",
+        "\n",
+        "mostre o resultado\n"
+      ],
+      "metadata": {
+        "id": "uOq3CXOt9fqu"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# entrada\n",
+        "\n",
+        "numero1 = 45"
+      ],
+      "metadata": {
+        "id": "0hxNp62F-PNM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# processamento\n",
+        "\n",
+        "dobro = numero1 * 2"
+      ],
+      "metadata": {
+        "id": "QKvidaKs-z_4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# saida\n",
+        "\n",
+        "print (dobro)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zDkf6qTp_Ail",
+        "outputId": "85063655-f6b9-445a-887e-d3f83454b870"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "90\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
